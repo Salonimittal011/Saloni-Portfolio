@@ -1,7 +1,5 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
-import  ReactDOM  from 'react-dom';
-import { Tooltip } from 'antd';
 import FrontendImg from './../images/front-end.svg';
 import Html5 from './../images/html5.svg';
 import Css3 from './../images/css3.svg';
@@ -16,15 +14,6 @@ import Illustrator from './../images/illustrator.svg';
 import Sketch from './../images/sketch.svg';
 import './../sass/_common.scss';
 import './_skills.scss';
-
-// const html5 = <span>Html5</span>;
-// const css3 = <span>Css3</span>;
-// const sass = <span>Sass</span>;
-// const bootstrap = <span>Bootstrap</span>;
-// const jquery = <span>jQuery</span>;
-// const javascript = <span>JS</span>;
-// const react = <span>React</span>;
-// const npm = <span>Npm</span>;
 
 
 function Skills(){
@@ -131,4 +120,4 @@ function Skills(){
     );
 }
 
-ReactDOM.render(<Skills />, document.getElementById('Skills'));
+export default Skills;

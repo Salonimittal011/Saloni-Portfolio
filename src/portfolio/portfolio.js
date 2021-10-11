@@ -1,6 +1,5 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './../sass/_common.scss';
 import './_portfolio.scss';
 import greetingImg from './../images/greeting-img.jpg';
@@ -59,4 +58,4 @@ function Portfolio(){
     );
 }
 
-ReactDOM.render(<Portfolio />, document.getElementById('Portfolio'));
+export default Portfolio;

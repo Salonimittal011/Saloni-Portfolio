@@ -1,10 +1,10 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from  'react';
+import { BrowserRouter, Link  } from 'react-router-dom';
 import './../sass/_common.scss';
 import './_header.scss';
 
-function MyHeader (){
+function Header (){
     return (
 <header className="header">
     <div className="container">
@@ -17,27 +17,27 @@ function MyHeader (){
     <nav className='nav'>
         <ul className="nav-list">
             <li className="nav-items">
-                <a className="nav-links" href="/home">
+               <Link to='/'> <a className="nav-links" href="/home">
                     Home
-                </a>
+                </a></Link>
             </li>
 
             <li className="nav-items">
-            <a className="nav-links" href="/Education">
+          <Link to='/education'>  <a className="nav-links" href="/Education">
                     Education
-                </a>
+                </a></Link>
             </li>
 
             <li className="nav-items">
-            <a className="nav-links" href="/Experience">
+           <Link to='/experience'> <a className="nav-links" href="/Experience">
                     Experience
-                </a>
+                </a></Link>
             </li>
 
             <li className="nav-items">
-            <a className="nav-links" href="/ContactMe">
+            <Link to='/contact'>  <a className="nav-links" href="/ContactMe">
                     Contact Me
-                </a>
+                </a></Link>
             </li>
 
         </ul>
@@ -50,4 +50,4 @@ function MyHeader (){
     );  
 }
 
-ReactDOM.render(<MyHeader />, document.getElementById('Header'));
+export default Header;

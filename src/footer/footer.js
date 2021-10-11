@@ -14,4 +14,4 @@ function Footer(){
     );
 }
 
-ReactDOM.render(<Footer />, document.getElementById('Footer'));
+export default Footer;
