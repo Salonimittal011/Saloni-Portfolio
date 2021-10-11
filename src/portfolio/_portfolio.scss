@@ -1,0 +1,90 @@
+.portfolio {
+    background-color: #f6f6f6;
+    padding: 4rem 0;
+
+    .greeting-text {
+
+        .title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            font-weight: 500;
+            margin: 80px 0 20px 0;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #5a6377;
+            font-family: 'Roboto', sans-serif;
+            margin: 20px 0;
+            line-height: 2em;
+            font-weight: 500;
+        }
+
+        .icon-btn {
+            color: #fff;
+            padding-right: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+
+            span {
+                display: inline-block;
+                font-size: 1.3rem;
+                width: 2.6rem;
+                border-radius: 50%;
+                padding: 5px;
+                transition: all 0.3s ease-in;
+
+                &:hover{
+                    background-color: rgb(20, 33, 61);
+                    transition: all 0.3s ease-in;
+                }
+            }
+
+            .github {
+                background-color: #000;
+            }
+
+            .linkedin {
+                background-color: rgb(0, 119, 181);
+            }
+
+            .google {
+                background-color: rgb(209, 72, 54);
+            }
+
+            .instagram {
+                background-color: rgb(24, 119, 242);
+            }
+
+            .facebook {
+                background-color: rgb(228, 64, 95);
+            }
+
+        }
+
+        .portfolio-btn {
+             margin: 30px 0;
+            .btn {
+                background: #000;
+                color: #fff;
+                padding: 10px 15px;
+                transition: 0.3s ease-in;
+
+                &:hover{
+                    transition: 0.3s ease-in;
+                    color: #000;
+                    background: transparent;
+                    border: 1px solid #000;
+                }
+            }
+        }
+    }
+
+
+    .greeting-image {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

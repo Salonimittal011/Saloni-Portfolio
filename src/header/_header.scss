@@ -1,0 +1,48 @@
+.header{
+    background-color: #e5e5e5;
+    box-shadow: 0px -5px 32px rgba(0, 0, 0, 0.5);
+    position: relative;
+    .header-inner{
+       padding: 20px 10px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+        .logo{
+           color: #000;
+           text-decoration: none;
+           list-style: none;
+           font-size: 2em;
+
+           .logo-name{
+            font-family: 'Bonheur Royale', cursive;
+            font-weight: 600;
+           }
+        
+       }
+    }
+
+
+    .nav{
+        .nav-list{
+            margin: 0;
+
+            .nav-items{
+                text-decoration: none;
+                list-style: none;
+                 display: inline;
+                .nav-links{
+                    text-decoration: none;
+                    color: #000;
+                    font-family: 'Roboto', sans-serif;
+                    padding: 20px;
+                    font-size: 0.9em;
+                    font-weight: 400;
+                    &:hover{
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
